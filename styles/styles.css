@@ -1,0 +1,102 @@
+/**
+Miguel E. Quevedo H. 
+18/12/2017
+*/
+body{
+    text-align:center;
+
+}
+ul{
+    text-align:left;
+}
+p{
+    text-indent: 12px;
+    text-align: justify;
+    padding: 8px;
+}
+#dvProfile{
+   margin-top: 92px;
+    min-height: 402px;
+}
+#dvProfile > div{
+padding: 80px 0;
+}
+/*#profile{
+    width: 175px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 25%;
+    margin: auto;
+}*/
+#studies-content{
+
+    max-height: 348px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: none;
+}
+#studies  .modal-dialog  .modal-content .modal-body{
+padding: 0;
+
+height: 348px;
+overflow: hidden;
+}
+#studies  .modal-dialog  .modal-content .modal-body .list-group{
+    margin-bottom:1px; 
+    
+    overflow-x: auto;
+}
+.accordion-scroll{
+    max-height:250px;
+    overflow:auto;
+}
+#studies-content{
+    
+    position: fixed;
+    background-color: whitesmoke;
+    z-index: 3;
+    margin-left: 15px;
+    height:348px;
+}
+.modal-body{
+      max-height: 350px;
+    overflow-x: auto;
+}
+.list-group-item.active.head{
+    margin-bottom: 1px;
+}
+
+.stage{
+min-height: 395px;
+}
+.info{
+    text-indent: 24px;
+    font-size: 24px;
+}
+.btn-lang{
+        width: 92px;
+    height: 98px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 4;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.stage-title{
+    color: rgb(46, 204, 113);
+}
+.stage-2{
+        text-align: center;
+    
+    
+}
+
+.stage-2 img{
+    height: 200px;
+    width: 100%;
+    padding: 4px;
+}
+.stage-2 a > div:hover{
+ /*   border: solid 1.5px;*/
+}
